@@ -3,5 +3,6 @@ Rails.application.routes.draw do
 
   get 'test/view', to: 'test#view'
   get 'json', to: 'json#index'
+  get 'json/view', to: 'json#view'
 
 end
